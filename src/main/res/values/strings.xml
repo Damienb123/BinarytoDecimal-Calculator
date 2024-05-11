@@ -1,0 +1,30 @@
+<resources>
+
+    <string name="app_name">Binary to Decimal Calculator</string>
+    <!-- Hint for binary number input -->
+    <string name="hint_enter_binary_number">Enter a Binary Number</string>
+
+    <!-- Hint for output EditText -->
+    <string name="hint_answer_appear_here">Answer will appear here</string>
+
+    <!-- Button text for Submit -->
+    <string name="button_submit">Submit</string>
+
+    <!-- Button text for Reset -->
+    <string name="button_reset">Reset</string>
+
+    <!-- Instruction text for Submit button -->
+    <string name="instruction_submit_button">⚫ Click on Submit Button after entering a Binary Number</string>
+
+    <!-- Instruction text for Reset button -->
+    <string name="instruction_reset_button">⚫ Click on Reset Button to reset</string>
+    <string name="click_on_reset_button_to_reset">Reset</string>
+    <string name="click_on_submit_button_after_entering_a_binary_number">Submit</string>
+    <string name="reset">Reset</string>
+    <string name="submit">Submit</string>
+    <string name="enter_a_binary_number">Enter a binary number</string>
+    <string name="answer_will_appear_here">Answer will appear here</string>
+    <string name="click_reset_button_to_reset">⚫ Click on Reset Button to reset</string>
+    <string name="click_submit_button_after_entering_a_binary_number">⚫ Click on Submit Button after entering a Binary Number</string>
+    <string name="binary_to_decimal_calculator">Binary to Decimal Calculator</string>
+</resources>

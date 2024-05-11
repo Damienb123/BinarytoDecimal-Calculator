@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.converter.binary_decimalconverterapplication.MainActivity">
+
+ <!-- Input field for entering a binary number -->
+ <EditText
+     android:id="@+id/editText"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_marginLeft="16dp"
+     android:layout_marginTop="100dp"
+     android:layout_marginRight="16dp"
+     android:background="@drawable/edit_text_border"
+     android:digits="01"
+     android:hint="@string/enter_a_binary_number"
+     android:inputType="numberDecimal"
+     android:padding="10dp"
+     android:textAlignment="center"
+     android:textSize="20sp"
+     android:autofillHints=""
+     android:minHeight="48dp"/>
+
+ <!-- Button to submit the binary number for conversion -->
+ <Button
+     android:id="@+id/submit"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_below="@id/editText"
+     android:layout_centerHorizontal="true"
+     android:layout_margin="8dp"
+     android:text="@string/submit"
+     android:textAllCaps="false" />
+
+ <!-- Output field to display the converted decimal number -->
+ <EditText
+     android:id="@+id/output"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_below="@id/submit"
+     android:layout_marginLeft="16dp"
+     android:layout_marginTop="100dp"
+     android:layout_marginRight="16dp"
+     android:background="@drawable/edit_text_border"
+     android:hint="@string/answer_will_appear_here"
+     android:padding="10dp"
+     android:textAlignment="center"
+     android:textSize="20sp"
+     android:autofillHints=""
+     android:inputType="number"
+     android:minHeight="48dp"/>
+
+ <!-- Button to reset the input and output fields -->
+ <Button
+     android:id="@+id/reset"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_below="@id/output"
+     android:layout_centerHorizontal="true"
+     android:layout_margin="8dp"
+     android:text="@string/reset"
+     android:textAllCaps="false" />
+
+ <!-- Instruction text for the submit button -->
+ <TextView
+     android:id="@+id/textView"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_below="@id/reset"
+     android:layout_marginStart="10dp"
+     android:layout_marginTop="10dp"
+     android:text="@string/click_submit_button_after_entering_a_binary_number"
+     android:textSize="15sp" />
+
+ <!-- Instruction text for the reset button -->
+ <TextView
+     android:id="@+id/textView3"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_below="@id/textView"
+     android:layout_marginStart="10dp"
+     android:layout_marginTop="10dp"
+     android:text="@string/click_reset_button_to_reset"
+     android:textSize="15sp" />
+
+</RelativeLayout>
